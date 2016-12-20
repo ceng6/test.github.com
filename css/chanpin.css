@@ -1,0 +1,144 @@
+@charset "utf-8";
+.r_top{
+    width:3.75rem;
+    height:80px;
+    background:#000;
+    position:relative;
+}
+.r_top h1{
+    font-size:0.15rem;
+    font-weight:normal;
+    color:#fff;
+    line-height:80px;
+    text-align:center;
+}
+
+.r_on{
+    width:0.23rem;
+    height:0.23rem;
+    position:absolute;
+    left:0.2rem;
+    top:0.06rem;
+}
+.r_img{
+	width:3.75rem;
+	position:relative;
+}
+.r_ps{
+	font-size:0.25rem;
+	position:absolute;
+	left:1.5rem;
+	top:0.8rem;
+	color:#fff;
+}
+#boss{
+	width:3.75rem;
+}
+.active {
+	width:25%;
+	text-align:center;
+}
+.active .intr-svg .st0 {
+		fill:#e20d22
+	}
+.intr-svg {
+	width: 0.5rem;
+	height: 0.4rem;
+	margin-bottom: 0.2rem;
+}
+.active p{
+	font-size:0.1rem;
+	text-align:center;
+}
+.swiper-container {
+	width: 100%;
+	margin:0 auto;
+	padding-top: 0.45rem;
+}
+.swiper-slide {
+	font-size: 18px;
+	background: #fff;
+	width: 100%;
+	text-align: left;
+	border-bottom:0.3rem;
+
+}
+.swiper-slide:nth-child(2n) {
+	width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+	width: 20%;
+}
+.swiper-slide h2 {
+	font-weight: bold;
+	font-size: 0.23rem;
+	color: #e30b20;
+	border-left: 0.04rem solid #e30b20;
+	margin:0 0 0.45rem 0.27rem;
+	padding-left: 0.15rem;
+}
+.swiper-slide .content {
+	padding:0 0.45rem;
+	font-size: 0.14rem;
+	line-height: 0.25rem;
+
+}
+.swiper-slide .content img {
+	max-width: 100%;
+   
+}
+.swiper-slide .content p {
+	margin-top:0.3rem;
+}
+
+.icon_2 {
+    padding: 0.35rem 0 0.55rem;
+}
+.icon_2 li{
+    width: 25%;
+    text-align: center;
+    font-size: 0;
+}
+.icon_2 li p {
+    font-size: 0.12rem;
+    line-height: 0.18rem;
+    padding-top: 0.15rem;
+}
+.active {
+    color: red;
+}
+.active .intr-svg .st0 {
+    fill:#e20d22
+}
+.intr-svg {
+    width: 0.5rem;
+    height: 0.4rem;
+}
+#r_active{
+    width:3.75rem;
+    height:3.75rem;
+    background:#000;
+    z-index:99999;
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+#r_active .r_close{
+    color:#fff;
+    font-size:0.5rem;
+    margin-left:0.2rem;
+    margin-top:0.02rem;
+}
+#r_active li{
+    padding-bottom:0.2rem;
+    padding-top:0.2rem;
+    text-align:center;
+    border-bottom:1px solid #ccc;
+}
+#r_active li a{
+    font-size:0.2rem;
+    color:#fff;
+}
+
+

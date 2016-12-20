@@ -1,0 +1,39 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+    margin: 0;
+    padding: 0;
+    border: 0; }
+body{
+    font-size:12px;
+}
+.warp{
+    width:3.21rem;
+    margin:0 auto;
+}
+
+ul, ol {
+    list-style-type: none; }
+
+select, input, img {
+    vertical-align: middle;
+    outline: none; }
+
+a {
+    text-decoration: none;
+    color: #000; }
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.clearfix {
+    zoom: 1; }
+
+.fl {
+    float: left; }
+
+.fr {
+    float: right; }
+img{
+    display:block;
+}

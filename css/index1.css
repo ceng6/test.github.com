@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+/*2,3,4项标题*/
+
+#q_content{
+    width:3.75rem;
+}
+.q_con2 ,.q_con3, .q_con4{
+    font-size:0.14rem;
+	
+}
+.q_con2 {
+	height:2.65rem;	
+	padding-top:0.42rem;
+	background:#FFF;
+}
+.q_con3{
+	height:5.68rem;
+	padding-top:0.28rem;	
+	background:#29282e;
+	
+}
+.q_con4{
+	padding-top:0.38rem;
+	height:3.88rem;	
+}
+.q_con2 h2 ,.q_con3 h2, .q_con4 h2{
+    font-size:0.22rem;
+    color:#111;
+    font-family:'微软雅黑';
+	margin-bottom:0.16rem;
+}
+.q_con3 h2{
+	color:#fff;	
+}
+.q_con2 h2 span, .q_con3 h2 span, .q_con4  h2 span{
+    color:#e30007;
+	
+}
+.q_con3 h2 span{
+    color:#fff;
+}
+.q_con2 .icon, .q_con3 .icon, .q_con4 .icon{
+    width:0.44rem;
+	height:0.04rem;
+	background:red;
+	margin-left:0.4rem;
+	margin-bottom:0.2rem;
+}
+.q_con3 .icon{
+	background:#fff;
+}
+.q_con2 b, .q_con3 b, .q_con4 b{
+	margin-left:11px;
+}
+.q_con3 b{
+	color:#fff;	
+}
+.q_con2 p ,.q_con3 p{
+	width:2.4rem;
+    font-size:0.14rem;
+    color:#111;
+    font-family:'微软雅黑';
+    line-height: 0.24rem;
+	margin-left:0.4rem;
+}
+.q_con3 p{
+	 color:#fff;
+	 margin-bottom:0.24rem;	
+}
+.q_con4 .text p{
+	 line-height:0.32rem;
+	 font-size:0.13rem;
+	 font-family:'微软雅黑';
+}
+.q_con4 .text .p1{
+	 line-height:0.24rem;
+}
+.q_con4 .ditu{
+	 width:3.75rem;
+	 height:1.22rem;
+	 background:#c3ddba;
+	 margin-top:0.24rem;
+}
+.q_con4 .footer{
+	 font-size:0.13rem;
+	 color:#959595;
+	 margin-top:0.3rem;
+	 margin-left:1.2rem;
+}
+#videos{
+	width:3.2rem;	
+}
+iframe{
+    width:3.75rem;
+    height:1.21rem;
+}
