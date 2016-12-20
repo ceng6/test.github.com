@@ -1,43 +1,62 @@
 html{
     font-size:100px;
 }
-#r_header{
-    width:3.75rem;
-	height:3.75rem;
-}
-#r_header img{
-    width:3.75rem;
-    position:relative;
-}
-
-#r_header .r_on{
+#r_header .btn{
+	float:left;
     width:0.23rem;
     height:0.23rem;
-    position:absolute;
-    left:0.2rem;
-    top:0.06rem;
+  	margin-left:0.27rem;
+	margin-top:0.15rem;
+	background:url(../img/1.jpg) no-repeat;
 }
 #r_header .r_top{
     width:3.75rem;
-    height:80px;
+    height:0.4rem;
     background:#000;
-    position:relative;
 }
 #r_header .r_top h1{
     font-size:0.15rem;
     font-weight:normal;
     color:#fff;
-    line-height:80px;
+    line-height:0.4rem;
     text-align:center;
+}
+#r_header .box1 img{
+   width:3.75rem;
+}
+#r_header .box1{
+	position:relative;
+}
+.box1 .p1{
+	position:absolute;
+	left:0.35rem;
+	top:1.8rem;
+	font-size:0.17rem;
+	color:#fff;
+}
+.box1 .p2{
+	position:absolute;
+	left:0.35rem;
+	top:2.2rem;
+	font-size:0.35rem;
+	color:#fff;
+	background:#f00;
+}
+.box1 .p3{
+	position:absolute;
+	left:1.8rem;
+	top:2.2rem;
+	font-size:0.35rem;
+	color:#fff;
 }
 #r_active{
     width:3.75rem;
-    height:3.75rem;
+	height:15rem;
     background:#000;
     z-index:99999;
     position:absolute;
     left:0;
-    top:0;
+    top:0.4rem;
     display:none;
 }
 #r_active .r_close{
@@ -56,27 +75,8 @@ html{
     font-size:0.2rem;
     color:#fff;
 }
-.r_content{
-    position:absolute;
-    width:1.5rem;
-    left:0.75rem;
-    top:2.5rem;
-}
-.r_content p{
-    color:#fff;
-    font-size:0.15rem;
-    margin-bottom:0.1rem;
-    margin-left:0.1rem;
-}
-.r_content span{
-    color:#fff;
-    font-size:0.20rem;
-    margin-left:0.1rem;
-}
-.r_content span b{
-    font-weight:normal;
-    background:#f00;
-}
+
+
 .r_count{
     width:3.75rem;
     height:1.75rem;
@@ -119,7 +119,7 @@ html{
 
 #r_header .r_source{
 	width:2.4rem;
-	margin-top:0.2rem;
+	margin-top:1rem;
 }
 #r_header .r_call{
 	font-size:0.14rem;
